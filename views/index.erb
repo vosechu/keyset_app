@@ -1,109 +1,126 @@
-<!-- function Keycap(props) {
-  let fontSize = "1.7em"
-  if (props.value.length > 1) {
-    fontSize = "0.7em"
-  }
-} -->
-
 <link rel="stylesheet" href="/css/keycaps.css">
 <script src="/js/keycaps.js"></script>
+<script src="/js/style-selector.js"></script>
 
 <div class="row">
   <!-- Row 1 -->
   <div class="col-sm">
-    <div data-color-id="1" class="keycap" data-content="`" data-upper-content="~"></div>
-    <div data-color-id="2" class="keycap" data-content="1" data-upper-content="!"></div>
-    <div data-color-id="2" class="keycap" data-content="2" data-upper-content="@"></div>
-    <div data-color-id="3" class="keycap" data-content="3" data-upper-content="#"></div>
-    <div data-color-id="3" class="keycap" data-content="4" data-upper-content="$"></div>
-    <div data-color-id="4" class="keycap" data-content="5" data-upper-content="%"></div>
-    <div data-color-id="5" class="keycap" data-content="6" data-upper-content="^"></div>
-    <div data-color-id="5" class="keycap" data-content="7" data-upper-content="&"></div>
-    <div data-color-id="6" class="keycap" data-content="8" data-upper-content="*"></div>
-    <div data-color-id="6" class="keycap" data-content="9" data-upper-content="("></div>
-    <div data-color-id="6" class="keycap" data-content="0" data-upper-content=")"></div>
-    <div data-color-id="6" class="keycap" data-content="SPACE" data-upper-content="BACK"></div>
+    <div data-row="1" data-col="1"  class="keycap" data-content="`" data-upper-content="~"></div>
+    <div data-row="1" data-col="2"  class="keycap" data-content="1" data-upper-content="!"></div>
+    <div data-row="1" data-col="3"  class="keycap" data-content="2" data-upper-content="@"></div>
+    <div data-row="1" data-col="4"  class="keycap" data-content="3" data-upper-content="#"></div>
+    <div data-row="1" data-col="5"  class="keycap" data-content="4" data-upper-content="$"></div>
+    <div data-row="1" data-col="6"  class="keycap" data-content="5" data-upper-content="%"></div>
+    <div data-row="1" data-col="7"  class="keycap" data-content="6" data-upper-content="^"></div>
+    <div data-row="1" data-col="8"  class="keycap" data-content="7" data-upper-content="&"></div>
+    <div data-row="1" data-col="9"  class="keycap" data-content="8" data-upper-content="*"></div>
+    <div data-row="1" data-col="10" class="keycap" data-content="9" data-upper-content="("></div>
+    <div data-row="1" data-col="11" class="keycap" data-content="0" data-upper-content=")"></div>
+    <div data-row="1" data-col="12" class="keycap" data-content="SPACE" data-upper-content="BACK"></div>
   </div>
 </div>
 <div class="row">
   <!-- Row 2 -->
   <div class="col-sm">
-    <div data-color-id="1" class="keycap" data-content="TAB"></div>
-    <div data-color-id="1" class="keycap" data-content="Q"></div>
-    <div data-color-id="2" class="keycap" data-content="W"></div>
-    <div data-color-id="2" class="keycap" data-content="E"></div>
-    <div data-color-id="3" class="keycap" data-content="R"></div>
-    <div data-color-id="3" class="keycap" data-content="T"></div>
-    <div data-color-id="4" class="keycap" data-content="Y"></div>
-    <div data-color-id="5" class="keycap" data-content="I"></div>
-    <div data-color-id="5" class="keycap" data-content="O"></div>
-    <div data-color-id="6" class="keycap" data-content="U"></div>
-    <div data-color-id="6" class="keycap" data-content="P"></div>
-    <div data-color-id="6" class="keycap" data-content="\" data-upper-content="|"></div>
+    <div data-row="2" data-col="1"  class="keycap" data-content="TAB"></div>
+    <div data-row="2" data-col="2"  class="keycap" data-content="Q"></div>
+    <div data-row="2" data-col="3"  class="keycap" data-content="W"></div>
+    <div data-row="2" data-col="4"  class="keycap" data-content="E"></div>
+    <div data-row="2" data-col="5"  class="keycap" data-content="R"></div>
+    <div data-row="2" data-col="6"  class="keycap" data-content="T"></div>
+    <div data-row="2" data-col="7"  class="keycap" data-content="Y"></div>
+    <div data-row="2" data-col="8"  class="keycap" data-content="I"></div>
+    <div data-row="2" data-col="9"  class="keycap" data-content="O"></div>
+    <div data-row="2" data-col="10" class="keycap" data-content="U"></div>
+    <div data-row="2" data-col="11" class="keycap" data-content="P"></div>
+    <div data-row="2" data-col="12" class="keycap" data-content="\" data-upper-content="|"></div>
   </div>
 </div>
 <div class="row">
   <!-- Row 3 -->
   <div class="col-sm">
-    <div data-color-id="1" class="keycap" data-content="ESC"></div>
-    <div data-color-id="1" class="keycap" data-content="A"></div>
-    <div data-color-id="1" class="keycap" data-content="S"></div>
-    <div data-color-id="2" class="keycap" data-content="D"></div>
-    <div data-color-id="2" class="keycap" data-content="F"></div>
-    <div data-color-id="3" class="keycap" data-content="G"></div>
-    <div data-color-id="3" class="keycap" data-content="H"></div>
-    <div data-color-id="4" class="keycap" data-content="J"></div>
-    <div data-color-id="5" class="keycap" data-content="K"></div>
-    <div data-color-id="5" class="keycap" data-content="L"></div>
-    <div data-color-id="6" class="keycap" data-content=";" data-upper-content=":"></div>
-    <div data-color-id="6" class="keycap" data-content="&apos;" data-upper-content="&quot;"></div>
+    <div data-row="3" data-col="1"  class="keycap" data-content="ESC"></div>
+    <div data-row="3" data-col="2"  class="keycap" data-content="A"></div>
+    <div data-row="3" data-col="3"  class="keycap" data-content="S"></div>
+    <div data-row="3" data-col="4"  class="keycap" data-content="D"></div>
+    <div data-row="3" data-col="5"  class="keycap" data-content="F"></div>
+    <div data-row="3" data-col="6"  class="keycap" data-content="G"></div>
+    <div data-row="3" data-col="7"  class="keycap" data-content="H"></div>
+    <div data-row="3" data-col="8"  class="keycap" data-content="J"></div>
+    <div data-row="3" data-col="9"  class="keycap" data-content="K"></div>
+    <div data-row="3" data-col="10" class="keycap" data-content="L"></div>
+    <div data-row="3" data-col="11" class="keycap" data-content=";" data-upper-content=":"></div>
+    <div data-row="3" data-col="12" class="keycap" data-content="&apos;" data-upper-content="&quot;"></div>
   </div>
 </div>
 <div class="row">
   <!-- Row 4 -->
   <div class="col-sm">
-    <div data-color-id="1" class="keycap" data-content="SHIFT"></div>
-    <div data-color-id="1" class="keycap" data-content="Z"></div>
-    <div data-color-id="2" class="keycap" data-content="X"></div>
-    <div data-color-id="2" class="keycap" data-content="C"></div>
-    <div data-color-id="3" class="keycap" data-content="V"></div>
-    <div data-color-id="3" class="keycap" data-content="B"></div>
-    <div data-color-id="4" class="keycap" data-content="N"></div>
-    <div data-color-id="5" class="keycap" data-content="M"></div>
-    <div data-color-id="5" class="keycap" data-content="," data-upper-content=">"></div>
-    <div data-color-id="6" class="keycap" data-content="." data-upper-content="<"></div>
-    <div data-color-id="6" class="keycap" data-content="/" data-upper-content="?"></div>
-    <div data-color-id="6" class="keycap" data-content="RETURN"></div>
+    <div data-row="4" data-col="1"  class="keycap" data-content="SHIFT"></div>
+    <div data-row="4" data-col="2"  class="keycap" data-content="Z"></div>
+    <div data-row="4" data-col="3"  class="keycap" data-content="X"></div>
+    <div data-row="4" data-col="4"  class="keycap" data-content="C"></div>
+    <div data-row="4" data-col="5"  class="keycap" data-content="V"></div>
+    <div data-row="4" data-col="6"  class="keycap" data-content="B"></div>
+    <div data-row="4" data-col="7"  class="keycap" data-content="N"></div>
+    <div data-row="4" data-col="8"  class="keycap" data-content="M"></div>
+    <div data-row="4" data-col="9"  class="keycap" data-content="," data-upper-content=">"></div>
+    <div data-row="4" data-col="10" class="keycap" data-content="." data-upper-content="<"></div>
+    <div data-row="4" data-col="11" class="keycap" data-content="/" data-upper-content="?"></div>
+    <div data-row="4" data-col="12" class="keycap" data-content="RETURN"></div>
   </div>
 </div>
 <div class="row">
   <!-- Row 5 -->
   <div class="col-sm">
-    <div data-color-id="1" class="keycap" data-content=""></div>
-    <div data-color-id="2" class="keycap" data-content="CTRL"></div>
-    <div data-color-id="2" class="keycap" data-content="OPT"></div>
-    <div data-color-id="3" class="keycap" data-content="CMD"></div>
-    <div data-color-id="3" class="keycap" data-content="LOWER"></div>
-    <!-- <div data-color-id="5" class="keycap keycap-2u" data-content=""></div> -->
-    <div data-color-id="4" class="keycap" data-content=""></div>
-    <div data-color-id="5" class="keycap" data-content=""></div>
-    <div data-color-id="5" class="keycap" data-content="RAISE"></div>
-    <div data-color-id="6" class="keycap" data-content="LEFT"></div>
-    <div data-color-id="6" class="keycap" data-content="DOWN"></div>
-    <div data-color-id="6" class="keycap" data-content="UP"></div>
-    <div data-color-id="6" class="keycap" data-content="RIGHT"></div>
+    <div data-row="5" data-col="1"  class="keycap" data-content=""></div>
+    <div data-row="5" data-col="2"  class="keycap" data-content="CTRL"></div>
+    <div data-row="5" data-col="3"  class="keycap" data-content="OPT"></div>
+    <div data-row="5" data-col="4"  class="keycap" data-content="CMD"></div>
+    <div data-row="5" data-col="5"  class="keycap" data-content="LOWER"></div>
+    <div data-row="5" data-col="6"  class="keycap keycap-2u" data-content=""></div>
+    <div data-row="5" data-col="7"  class="keycap" data-content="RAISE"></div>
+    <div data-row="5" data-col="8"  class="keycap" data-content="LEFT"></div>
+    <div data-row="5" data-col="9"  class="keycap" data-content="DOWN"></div>
+    <div data-row="5" data-col="10" class="keycap" data-content="UP"></div>
+    <div data-row="5" data-col="11" class="keycap" data-content="RIGHT"></div>
   </div>
 </div>
+<!--     <div data-row="5" data-col="" class="keycap" data-content=""></div> -->
+<!--     <div data-row="5" data-col="" class="keycap" data-content=""></div> -->
 
 <div class="row">
   <div class="col-sm">
+    <h3>Color selector</h3>
     <dl id="colors-map">
-      <dt>Color 1:</dt><dd data-color-id="1" data-bg-color="#1689c8" data-text-color="#eee">#eee on #1689c8</dd>
-      <dt>Color 2:</dt><dd data-color-id="2" data-bg-color="#29aafe" data-text-color="#eee">#eee on #29aafe</dd>
-      <dt>Color 3:</dt><dd data-color-id="3" data-bg-color="#a1edff" data-text-color="#222">#222 on #a1edff</dd>
+      <dt>Color 1 (usually main alphas):</dt><dd data-color-id="1" data-bg-color="#1689c8" data-text-color="#eee">#eee on #1689c8</dd>
+      <dt>Color 2 (usually left mods):</dt><dd data-color-id="2" data-bg-color="#29aafe" data-text-color="#eee">#eee on #29aafe</dd>
+      <dt>Color 3 (usually right mods):</dt><dd data-color-id="3" data-bg-color="#a1edff" data-text-color="#222">#222 on #a1edff</dd>
       <dt>Color 4:</dt><dd data-color-id="4" data-bg-color="#f2fff7" data-text-color="#222">#222 on #f2fff7</dd>
       <dt>Color 5:</dt><dd data-color-id="5" data-bg-color="#ffbf54" data-text-color="#eee">#eee on #ffbf54</dd>
       <dt>Color 6:</dt><dd data-color-id="6" data-bg-color="#fc811f" data-text-color="#eee">#eee on #fc811f</dd>
       <dt>Color 7:</dt><dd data-color-id="7" data-bg-color="#39347B" data-text-color="#019CAB">#019CAB on #39347B</dd>
+    </dl>
+  </div>
+  <div class="col-sm">
+    <h3>Style selector</h3>
+    <ul id="style-selector">
+      <li><a id="1-color" href="#">1-color alpha+mods</a></li>
+      <li><a id="2-color" href="#">2-color alpha/mod inverse</a></li>
+      <li><a id="2-color-highlight" href="#">2-color alpha/mod inverse with highlights</a></li>
+      <li><a id="3-color" href="#">Split 3-color mods</a></li>
+      <li><a id="3-color-highlight" href="#">Split 3-color mods with highlights</a></li>
+      <li><a id="red-alert" href="#">Red alert style</a></li>
+      <li><a id="right-arrow" href="#">Right arrow</a></li>
+      <li><a id="pac-man" href="#">Pac man/C= style</a></li>
+      <li><a id="pac-man-5" href="#">Pac man/C= style (5 colors)</a></li>
+      <li><a id="vintage-1976" href="#">1976 style</a></li>
+      up/down arrow
+      diamond
+      mountains
+      1976 w white background
+      harry potter scar
+
+    </ul>
   </div>
 </div>

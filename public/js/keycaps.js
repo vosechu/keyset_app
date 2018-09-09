@@ -11,24 +11,14 @@ $(document).ready(function () {
     </div>
   `
 
-  window.colors = {}
-  $('#colors-map dd').each(function (index, color) {
-    const $color = $(color)
-
-    window.colors[$color.data('color-id')] = {
-      bgColor: $color.data('bg-color'),
-      textColor: $color.data('text-color')
-    }
-  })
-
   $('.keycap').each(function (index, keycap) {
     const $keycap = $(keycap)
 
     const content   = $keycap.data('content')
     const upContent = $keycap.data('upper-content') || ""
     const colorId   = $keycap.data('color-id')
-    const bgColor   = window.colors[colorId].bgColor
-    const textColor = window.colors[colorId].textColor
+    const bgColor   = "#EEE"
+    const textColor = "#222"
 
     let displayText = content
 
