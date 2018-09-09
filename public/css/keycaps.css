@@ -1,0 +1,40 @@
+.keycap {
+  display: block;
+  float: left;
+
+  height: 64px;
+  width: 64px;
+
+  padding: 2px;
+
+  background-color: black;
+}
+
+.keycap .face {
+  /* These will be replaced with JS */
+  /* content: 'Q'; */
+  /* font-size: 1.8em; */
+  /* color: #eee; */
+  /* background-color: #1689c8; */
+
+  display: table;
+
+  height: 60px;
+  width: 60px;
+
+  line-height: 64px;
+  font-family: "Gotham Rounded";
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+
+  background-image: url('/images/keycap-layer.png'), url('/images/keycap-highlight.png');
+  background-blend-mode: multiply, overlay;
+  background-size: contain;
+}
+
+.keycap .face .face-content {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.4em;
+}
