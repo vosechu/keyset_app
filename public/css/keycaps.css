@@ -10,6 +10,10 @@
   background-color: black;
 }
 
+.keycap.keycap-2u {
+  width: 128px;
+}
+
 .keycap .face {
   /* These will be replaced with JS */
   /* content: 'Q'; */
@@ -31,6 +35,11 @@
   background-image: url('/images/keycap-layer.png'), url('/images/keycap-highlight.png');
   background-blend-mode: multiply, overlay;
   background-size: contain;
+}
+
+.keycap.keycap-2u .face {
+  width: 120px;
+  background-image: url('/images/keycap-2u-layer.png'), url('/images/keycap-2u-highlight.png');
 }
 
 .keycap .face .face-content {
